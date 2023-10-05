@@ -10,17 +10,19 @@ html{
     display:flex;
     margin: auto;
     border-radius: 30px;
+    box-shadow: 0px 7px #001e32;
     animation: fadein 2s;
     /* animation: moveup 5s; */
     -moz-animation: fadeIn 5s;
-}
+}   
 @keyframes fadein{
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
 @keyframes moveup {
-    from {top: 10px;}
-    to {top: 0px;}
+    0%{transform: translateY(20%);}
+    100%{transform: translateY(0%);}
+
 }
 .lpanel{
     /* display: inline-block; */
@@ -161,6 +163,7 @@ progress::-webkit-progress-value {
 a:link {
     color: blue;
     text-decoration: none;
+    /* vertical-align: auto; */
 }
   
 /* visited link */
@@ -171,4 +174,26 @@ a:visited {
   /* mouse over link */
 a:hover {
     color: red;
+}
+button{
+    /* display: inline-flex; */
+    padding: 10px;
+    background-color: #59D57D;
+    border-radius: 30px;
+    vertical-align: auto;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    font-size:medium;
+    border: 0px;
+    width: 3.5%;
+    position: absolute;
+    left: 50%;
+    top: 128%;
+}
+button:hover{
+    background-color: #00A273;
+}
+.download{
+    padding: 5px 0px 0px 0px;
 }
