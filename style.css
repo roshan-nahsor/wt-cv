@@ -1,0 +1,174 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: #2867b2; */
+    background-color: #003d74;
+    scroll-behavior: smooth;
+}
+.page{
+    background-color: white;
+    width: 65%;
+    display:flex;
+    margin: auto;
+    border-radius: 30px;
+    animation: fadein 2s;
+    /* animation: moveup 5s; */
+    -moz-animation: fadeIn 5s;
+}
+@keyframes fadein{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes moveup {
+    from {top: 10px;}
+    to {top: 0px;}
+}
+.lpanel{
+    /* display: inline-block; */
+    width: 35%;
+    /* background-color: turquoise; */
+    padding : 1%;
+    margin: 1% 2%;
+}
+.rpanel{
+    /* display: inline-block; */
+    width: auto;
+    /* background-color: rebeccapurple; */
+    padding: 1%;
+    margin: 2%;
+}
+img{
+    display: inline-block;
+    width: 120px;
+    border-radius: 50%;
+    margin-inline-end: 3%;
+    /* padding: 30px; */
+}
+.title{
+    display: inline-block;
+    /* padding: 0px 10px 50px; */
+    /* background-color: azure; */
+}
+h1,h2,h3,h4{
+    color: #003d74;
+}
+h1{
+    font-size: 60px;
+    margin: 0%;
+    font-weight: normal;
+}
+h4{
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+h5{
+    font-size: medium;
+    margin: 7px 0%;
+    padding: 0%;
+}
+h6{
+    font-size: medium;
+    font-weight: normal;
+    padding:0%;
+    margin: 7px 0%;
+}
+tr{
+    height: fit-content;
+}
+td{
+    padding: 0px 10px;
+    margin: 0%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: medium;
+    vertical-align: text-top;
+    /* border: 1px solid; */
+}
+table{
+    margin: 0px 16px;
+    /* border: 1px solid; */
+}
+.blocks{
+    margin: 4% 0px;
+    /* vertical-align: text-top; */
+    /* background-color: gray; */
+    padding: 0%;
+}
+ul.hole{
+    list-style-type: circle;
+    margin: 0% 6px;
+}
+.lcolumn{
+    width: 120px;
+}   
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}
+table.personal{
+    margin: 2% 1px;
+    /* margin: 0%; */
+    /* border: 1px solid; */
+    /* vertical-align: middle; */
+}
+td.personallcolumn{
+    width: 2%;
+    /* border: 1px solid; */
+    padding: 10px 10px 0px 0px;
+    vertical-align: middle;
+    margin: auto;
+}
+td.personalrcolumn{
+    /* border: 1px solid; */
+    padding: 10px 0px 0px 0px;
+    /* vertical-align: middle; */
+}
+.linkedin{
+    color: #2867b2;
+}
+.map{
+    color: #3377fa;
+}
+.call{
+    color: #fc4553;
+}
+.mail{
+    color: #43a590;
+}
+.skills{
+    padding: 5% 0%;
+}
+li.small{
+    padding: 1%;
+}
+progress {
+    width: 200px;
+    height: 10px;
+    border: 0px;
+}
+progress::-webkit-progress-bar {
+    background-color: #eeeeee;
+    border-radius: 8px;
+}
+progress::-webkit-progress-value {
+    background-color: #003d74;
+    border-radius: 8px;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+  
+/* visited link */
+a:visited {
+    color: lightseagreen;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: red;
+}
